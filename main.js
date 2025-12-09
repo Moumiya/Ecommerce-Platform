@@ -1,8 +1,8 @@
 import './style.css';
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const supabaseUrl = "https://lpsrfdhtwiisxblqltlq.supabase.co";
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxwc3JmZGh0d2lpc3hibHFsdGxxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3MTI3NTgsImV4cCI6MjA3NzI4ODc1OH0.cUThtH0hI2PMvoYklly18w0aGxqLXBus7_dRwlT1aJI";
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 let cart = [];
